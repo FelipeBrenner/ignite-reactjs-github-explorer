@@ -1,3 +1,11 @@
+:root {
+  --standard: #fff;
+  --dark: #221e22;
+  --dark-shadow: #a0adc7;
+  --dark-shadow-hover: #a0adc7c9;
+  --clear-shadow: #f3efef;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +14,6 @@
 
 html {
   font-size: 93.75%;
-
-  --standard: #f3efef;
-  --dark: #221e22;
-  --dark-shadow: #a0adc7;
-  --clear-shadow: #fff;
 }
 
 body {

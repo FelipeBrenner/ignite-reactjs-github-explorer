@@ -19,11 +19,59 @@ section.repository-list {
     box-shadow: 5px 5px 10px var(--dark-shadow), -5px -5px 10px var(--clear-shadow);
   }
 
-  ul {
+  .input-group {
+    position: absolute;
+    top: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    input {
+      flex: 1;
+      background: var(--clear-shadow);
+      border: 0;
+      padding: 12px 24px;
+
+      border-radius: 0.8rem;
+      
+      &::placeholder {
+        color: #A09CB1;
+      }
+    }
+
+    button {
+      font-weight: 600;
+      border-radius: 0.8rem;
+      border: 0;
+      background: var(--dark-shadow);
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+
+      padding: 10px;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background: var(--dark-shadow-hover);
+      }
+    }
+  }
+
+  ul{
     list-style: none;
     position: absolute;
-    top: 100px;
+    top: 140px;
     padding: 0 0 20px 0;
+    width: 100%;
+
+    .descricao {
+      display: flex;
+      justify-content: center;
+      padding: 150px;
+    }
 
     li {
       border-radius: 0.8rem;
