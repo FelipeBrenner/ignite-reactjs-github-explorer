@@ -7,17 +7,14 @@ section.repository-list {
   h1 {
     position: absolute;
     top: 0;
-    margin-bottom: 16px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding: 1.5rem 2rem;
-    border-radius: 1rem;
-    width: 250px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
 
-    margin-bottom: 2rem;
     color: var(--dark);
     box-shadow: 5px 5px 10px var(--dark-shadow), -5px -5px 10px var(--clear-shadow);
   }
@@ -25,12 +22,11 @@ section.repository-list {
   ul {
     list-style: none;
     position: absolute;
-    top: 110px;
+    top: 100px;
     padding: 0 0 20px 0;
 
     li {
-      border-radius: 1rem;
-      width: 100%;
+      border-radius: 0.8rem;
       padding: 15px;
       box-shadow: inset 2px 2px 10px var(--dark-shadow), inset -2px -2px 10px var(--clear-shadow);
 
@@ -42,6 +38,7 @@ section.repository-list {
         font-size: 14px;
         color: #444;
         margin-top: 8px;
+        opacity: 70%;
       }
 
       a {
@@ -49,6 +46,7 @@ section.repository-list {
         margin-top: 16px;
         text-decoration: none;
         color: var(--dark);
+        font-size: 90%;
         font-weight: 400;
       }
 
