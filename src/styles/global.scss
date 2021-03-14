@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 93.75%;
+
+  --standard: #e9e9e9;
+  --dark: #221e22;
+  --dark-shadow: #a0adc7;
+  --clear-shadow: #fff;
+}
+
 body {
-  font: 16px "Helvetica Neue", Arial, sans-serif;
-  color: #121214;
+  position: relative;
+  background: var(--standard);
+  font-family: "Raleway", sans-serif;
+  margin: auto;
+  width: #{"min(90vw, 900px)"};
 }
